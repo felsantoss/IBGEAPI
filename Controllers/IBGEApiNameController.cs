@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 [ApiController]
 [Route("[controller]")]
-public class IBGENamesController : Controller
+public class IBGENamesController : ControllerBase
 {
     [HttpGet(Name = "IBGE")]
     public async Task<IActionResult> NumbersOfNames(string name)

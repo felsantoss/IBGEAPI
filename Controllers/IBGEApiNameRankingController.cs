@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("[controller]")]
-public class IBGEApiNameRankingController : Controller
+public class IBGENameRankingController : ControllerBase
 {
     [HttpGet(Name = "RankingName")]
     public async Task<IActionResult> RankingOfNames()
