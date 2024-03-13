@@ -1,29 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\IBGEApi\\IBGEAPI\\APIController.csproj": {}
+    "C:\\Dev\\APIController\\IBGEAPI\\APIController.csproj": {}
   },
   "projects": {
-    "C:\\dev\\IBGEApi\\IBGEAPI\\APIController.csproj": {
+    "C:\\Dev\\APIController\\IBGEAPI\\APIController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\IBGEApi\\IBGEAPI\\APIController.csproj",
+        "projectUniqueName": "C:\\Dev\\APIController\\IBGEAPI\\APIController.csproj",
         "projectName": "APIController",
-        "projectPath": "C:\\dev\\IBGEApi\\IBGEAPI\\APIController.csproj",
+        "projectPath": "C:\\Dev\\APIController\\IBGEAPI\\APIController.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\IBGEApi\\IBGEAPI\\obj\\",
+        "outputPath": "C:\\Dev\\APIController\\IBGEAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/cesla/_packaging/cesla/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -69,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

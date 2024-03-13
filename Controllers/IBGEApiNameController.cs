@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 public class IBGENamesController : ControllerBase
 {
     [HttpGet(Name = "IBGE")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> NumbersOfNames(string name)
     {
         using (HttpClient client = new HttpClient())

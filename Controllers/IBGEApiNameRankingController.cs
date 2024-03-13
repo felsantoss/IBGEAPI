@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 public class IBGENameRankingController : ControllerBase
 {
     [HttpGet(Name = "RankingName")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> RankingOfNames()
     {
         using (HttpClient client = new HttpClient())
